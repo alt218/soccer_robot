@@ -57,20 +57,20 @@ Includes   <System Includes> , "Project Includes"
 *
 * Function Name: R_PG_Timer_SynchronouslyStartCount_MTU_U0
 *
-* Description  : MTUï¿½ÌƒJï¿½Eï¿½ï¿½ï¿½gï¿½ð“¯Žï¿½ï¿½ÉŠJï¿½n
+* Description  : MTU‚ÌƒJƒEƒ“ƒg‚ð“¯Žž‚ÉŠJŽn
 *
-* Arguments    : bool ch0 : MTU0.TCNTï¿½ÌƒVï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½Ý’ï¿½ (1:ï¿½ï¿½ï¿½ï¿½  0:ï¿½ï¿½ï¿½È‚ï¿½)
-*              : bool ch1 : MTU1.TCNTï¿½ÌƒVï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½Ý’ï¿½ (1:ï¿½ï¿½ï¿½ï¿½  0:ï¿½ï¿½ï¿½È‚ï¿½)
-*              : bool ch2 : MTU2.TCNTï¿½ÌƒVï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½Ý’ï¿½ (1:ï¿½ï¿½ï¿½ï¿½  0:ï¿½ï¿½ï¿½È‚ï¿½)
-*              : bool ch3 : MTU3.TCNTï¿½ÌƒVï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½Ý’ï¿½ (1:ï¿½ï¿½ï¿½ï¿½  0:ï¿½ï¿½ï¿½È‚ï¿½)
-*              : bool ch4 : MTU4.TCNTï¿½ÌƒVï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½Ý’ï¿½ (1:ï¿½ï¿½ï¿½ï¿½  0:ï¿½ï¿½ï¿½È‚ï¿½)
+* Arguments    : bool ch0 : MTU0.TCNT‚ÌƒVƒ“ƒNƒƒXƒ^[ƒgÝ’è (1:‚·‚é  0:‚µ‚È‚¢)
+*              : bool ch1 : MTU1.TCNT‚ÌƒVƒ“ƒNƒƒXƒ^[ƒgÝ’è (1:‚·‚é  0:‚µ‚È‚¢)
+*              : bool ch2 : MTU2.TCNT‚ÌƒVƒ“ƒNƒƒXƒ^[ƒgÝ’è (1:‚·‚é  0:‚µ‚È‚¢)
+*              : bool ch3 : MTU3.TCNT‚ÌƒVƒ“ƒNƒƒXƒ^[ƒgÝ’è (1:‚·‚é  0:‚µ‚È‚¢)
+*              : bool ch4 : MTU4.TCNT‚ÌƒVƒ“ƒNƒƒXƒ^[ƒgÝ’è (1:‚·‚é  0:‚µ‚È‚¢)
 *
-* Return Value : true  : ï¿½Jï¿½Eï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ÌÄŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½Jï¿½Eï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ÌÄŠJï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : ƒJƒEƒ“ƒg“®ì‚ÌÄŠJ‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : ƒJƒEƒ“ƒg“®ì‚ÌÄŠJ‚ÉŽ¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_MTU2_ControlUnit
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Timer_SynchronouslyStartCount_MTU_U0(bool ch0, bool ch1, bool ch2, bool ch3, bool ch4)
 {
@@ -118,16 +118,16 @@ bool R_PG_Timer_SynchronouslyStartCount_MTU_U0(bool ch0, bool ch1, bool ch2, boo
 *
 * Function Name: R_PG_Timer_StopModule_MTU_U0
 *
-* Description  : MTUï¿½Ìƒï¿½ï¿½jï¿½bï¿½gï¿½ï¿½ï¿½~
+* Description  : MTU‚Ìƒ†ƒjƒbƒg‚ð’âŽ~
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½ï¿½~ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½ï¿½~ï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : ’âŽ~‚É¬Œ÷‚µ‚½ê‡
+*              : false : ’âŽ~‚ÉŽ¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_MTU2_Destroy
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Timer_StopModule_MTU_U0(void)
 {
