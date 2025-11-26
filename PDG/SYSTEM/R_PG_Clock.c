@@ -57,17 +57,17 @@ Includes   <System Includes> , "Project Includes"
 *
 * Function Name: R_PG_Clock_Set
 *
-* Description  : ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½Ìİ’ï¿½
+* Description  : ƒNƒƒbƒN‚Ìİ’è
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *                   : R_CGC_Set
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_Set(void)
 {
@@ -120,18 +120,18 @@ bool R_PG_Clock_Set(void)
 *
 * Function Name: R_PG_Clock_WaitSet
 *
-* Description  : ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½Ìİ’ï¿½(ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½Ò‹@ï¿½ï¿½ï¿½Ô‚Ìİ’è‚ ï¿½ï¿½)
+* Description  : ƒNƒƒbƒN‚Ìİ’è(”­UˆÀ’è‘Ò‹@ŠÔ‚Ìİ’è‚ ‚è)
 *
-* Arguments    : double wait_time : ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½Ò‹@ï¿½ï¿½ï¿½ï¿½(ï¿½b)
+* Arguments    : double wait_time : ”­UˆÀ’è‘Ò‹@ŠÔ(•b)
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *                   : R_CGC_Set
 *                   : rpdl_wait_time
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_WaitSet(double wait_time)
 {
@@ -186,16 +186,16 @@ bool R_PG_Clock_WaitSet(double wait_time)
 *
 * Function Name: R_PG_Clock_Start_LOCO
 *
-* Description  : ï¿½á‘¬ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(LOCO)ï¿½Ì“ï¿½ï¿½ï¿½
+* Description  : ’á‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(LOCO)‚Ì“®ì
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_Start_LOCO(void)
 {
@@ -216,16 +216,16 @@ bool R_PG_Clock_Start_LOCO(void)
 *
 * Function Name: R_PG_Clock_Stop_LOCO
 *
-* Description  : ï¿½á‘¬ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(LOCO)ï¿½Ì’ï¿½~
+* Description  : ’á‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(LOCO)‚Ì’â~
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_Stop_LOCO(void)
 {
@@ -246,16 +246,16 @@ bool R_PG_Clock_Stop_LOCO(void)
 *
 * Function Name: R_PG_Clock_Start_HOCO
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(HOCO)ï¿½Ì“ï¿½ï¿½ï¿½
+* Description  : ‚‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(HOCO)‚Ì“®ì
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_Start_HOCO(void)
 {
@@ -276,16 +276,16 @@ bool R_PG_Clock_Start_HOCO(void)
 *
 * Function Name: R_PG_Clock_Stop_HOCO
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(HOCO)ï¿½Ì’ï¿½~
+* Description  : ‚‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(HOCO)‚Ì’â~
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_Stop_HOCO(void)
 {
@@ -306,16 +306,16 @@ bool R_PG_Clock_Stop_HOCO(void)
 *
 * Function Name: R_PG_Clock_PowerON_HOCO
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(HOCO)ï¿½Ì“dï¿½ï¿½ON
+* Description  : ‚‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(HOCO)‚Ì“dŒ¹ON
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_PowerON_HOCO(void)
 {
@@ -336,16 +336,16 @@ bool R_PG_Clock_PowerON_HOCO(void)
 *
 * Function Name: R_PG_Clock_PowerOFF_HOCO
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(HOCO)ï¿½Ì“dï¿½ï¿½OFF
+* Description  : ‚‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(HOCO)‚Ì“dŒ¹OFF
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_PowerOFF_HOCO(void)
 {
@@ -366,16 +366,16 @@ bool R_PG_Clock_PowerOFF_HOCO(void)
 *
 * Function Name: R_PG_Clock_GetSelectedClockSource
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½\ï¿½[ï¿½Xï¿½Ìæ“¾
+* Description  : “à•”ƒNƒƒbƒNƒ\[ƒX‚Ìæ“¾
 *
-* Arguments    : uint8_t* clock : ï¿½Iï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½\ï¿½[ï¿½Xï¿½iï¿½[ï¿½ï¿½
+* Arguments    : uint8_t* clock : ‘I‘ğƒNƒƒbƒNƒ\[ƒXŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_GetSelectedClockSource(uint8_t* clock)
 {
@@ -400,20 +400,20 @@ bool R_PG_Clock_GetSelectedClockSource(uint8_t* clock)
 *
 * Function Name: R_PG_Clock_GetClocksStatus
 *
-* Description  : ï¿½eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½Ôæ“¾
+* Description  : ŠeƒNƒƒbƒNó‘Ôæ“¾
 *
-* Arguments    : bool* main : ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
-*              : bool* sub : ï¿½Tï¿½uï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
-*              : bool* loco : LOCOï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
-*              : bool* iwdt : IWDTï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
-*              : bool* hoco : HOCOï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
+* Arguments    : bool* main : ƒƒCƒ“ƒNƒƒbƒN’â~ó‘ÔŠi”[æ
+*              : bool* sub : ƒTƒuƒNƒƒbƒN’â~ó‘ÔŠi”[æ
+*              : bool* loco : LOCO’â~ó‘ÔŠi”[æ
+*              : bool* iwdt : IWDTƒNƒƒbƒN’â~ó‘ÔŠi”[æ
+*              : bool* hoco : HOCO’â~ó‘ÔŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_GetClocksStatus(bool* main, bool* sub, bool* loco, bool* iwdt, bool* hoco)
 {
@@ -450,16 +450,16 @@ bool R_PG_Clock_GetClocksStatus(bool* main, bool* sub, bool* loco, bool* iwdt, b
 *
 * Function Name: R_PG_Clock_GetHOCOPowerStatus
 *
-* Description  : ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½Iï¿½Vï¿½ï¿½ï¿½[ï¿½^(HOCO)ï¿½dï¿½ï¿½ï¿½ï¿½Ôæ“¾
+* Description  : ‚‘¬ƒIƒ“ƒ`ƒbƒvƒIƒVƒŒ[ƒ^(HOCO)“dŒ¹ó‘Ôæ“¾
 *
-* Arguments    : bool* power : HOCOï¿½dï¿½ï¿½ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
+* Arguments    : bool* power : HOCO“dŒ¹ó‘ÔŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_GetHOCOPowerStatus(bool* power)
 {
@@ -484,16 +484,16 @@ bool R_PG_Clock_GetHOCOPowerStatus(bool* power)
 *
 * Function Name: R_PG_Clock_GetFlag_MAIN_StopDetection
 *
-* Description  : ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½oï¿½tï¿½ï¿½ï¿½Oï¿½æ“¾
+* Description  : ƒƒCƒ“ƒNƒƒbƒN”­UŠí’â~ŒŸoƒtƒ‰ƒOæ“¾
 *
-* Arguments    : bool* stop : ï¿½ï¿½ï¿½Uï¿½ï¿½~ï¿½ï¿½ÔŠiï¿½[ï¿½ï¿½
+* Arguments    : bool* stop : ”­U’â~ó‘ÔŠi”[æ
 *
-* Return Value : true  : ï¿½tï¿½ï¿½ï¿½Oï¿½Ìæ“¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½tï¿½ï¿½ï¿½Oï¿½Ìæ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : ƒtƒ‰ƒO‚Ìæ“¾‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : ƒtƒ‰ƒO‚Ìæ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_CGC_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_Clock_GetFlag_MAIN_StopDetection(bool* stop)
 {
