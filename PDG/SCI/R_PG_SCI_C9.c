@@ -58,17 +58,17 @@ Includes   <System Includes> , "Project Includes"
 *
 * Function Name: R_PG_SCI_Set_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½I/Oï¿½`ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Ìİ’ï¿½
+* Description  : ƒVƒŠƒAƒ‹I/Oƒ`ƒƒƒlƒ‹‚Ìİ’è
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Create
 *                   : R_SCI_Set
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_Set_C9(void)
 {
@@ -101,18 +101,18 @@ bool R_PG_SCI_Set_C9(void)
 *
 * Function Name: R_PG_SCI_SendAllData_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½Sï¿½Ä‘ï¿½ï¿½M
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‚ğ‘S‚Ä‘—M
 *
-* Arguments    : uint8_t * data : ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ÌŠiï¿½[ï¿½ï¿½Ìæ“ªï¿½ÌƒAï¿½hï¿½ï¿½ï¿½X
-*              : uint16_t count : ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½
-*              :                : 0ï¿½ï¿½ï¿½wï¿½è‚µï¿½ï¿½ï¿½ê‡ï¿½ï¿½NULLï¿½Ìƒfï¿½[ï¿½^ï¿½Ü‚Å‘ï¿½ï¿½Mï¿½ï¿½ï¿½Ü‚ï¿½
+* Arguments    : uint8_t * data : ‘—M‚·‚éƒf[ƒ^‚ÌŠi”[æ‚Ìæ“ª‚ÌƒAƒhƒŒƒX
+*              : uint16_t count : ‘—M‚·‚éƒf[ƒ^”
+*              :                : 0‚ğw’è‚µ‚½ê‡‚ÍNULL‚Ìƒf[ƒ^‚Ü‚Å‘—M‚µ‚Ü‚·
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Send
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_SendAllData_C9(uint8_t * data, uint16_t count)
 {
@@ -137,16 +137,16 @@ bool R_PG_SCI_SendAllData_C9(uint8_t * data, uint16_t count)
 *
 * Function Name: R_PG_SCI_GetSentDataCount_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Ì‘ï¿½ï¿½Mï¿½ï¿½ï¿½æ“¾
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‚Ì‘—M”æ“¾
 *
-* Arguments    : uint16_t * count : ï¿½ï¿½ï¿½İ‚Ì‘ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Å‘ï¿½ï¿½Mï¿½ï¿½ï¿½ê‚½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ÌŠiï¿½[ï¿½ï¿½
+* Arguments    : uint16_t * count : Œ»İ‚Ì‘—Mˆ—‚Å‘—M‚³‚ê‚½ƒf[ƒ^”‚ÌŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_GetSentDataCount_C9(uint16_t * count)
 {
@@ -173,17 +173,17 @@ bool R_PG_SCI_GetSentDataCount_C9(uint16_t * count)
 *
 * Function Name: R_PG_SCI_ReceiveAllData_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½Sï¿½Äï¿½M
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‚ğ‘S‚ÄóM
 *
-* Arguments    : uint8_t * data : ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ÌŠiï¿½[ï¿½ï¿½Ìæ“ªï¿½ÌƒAï¿½hï¿½ï¿½ï¿½X
-*              : uint16_t count : ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½
+* Arguments    : uint8_t * data : óM‚µ‚½ƒf[ƒ^‚ÌŠi”[æ‚Ìæ“ª‚ÌƒAƒhƒŒƒX
+*              : uint16_t count : óM‚·‚éƒf[ƒ^”
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Receive
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_ReceiveAllData_C9(uint8_t * data, uint16_t count)
 {
@@ -209,16 +209,16 @@ bool R_PG_SCI_ReceiveAllData_C9(uint8_t * data, uint16_t count)
 *
 * Function Name: R_PG_SCI_StopCommunication_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Ì‘ï¿½ï¿½ï¿½Mï¿½ï¿½~
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‚Ì‘—óM’â~
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_StopCommunication_C9(void)
 {
@@ -238,16 +238,16 @@ bool R_PG_SCI_StopCommunication_C9(void)
 *
 * Function Name: R_PG_SCI_GetReceivedDataCount_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Ìï¿½Mï¿½ï¿½ï¿½æ“¾
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‚ÌóM”æ“¾
 *
-* Arguments    : uint16_t * count : ï¿½ï¿½ï¿½İ‚Ìï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ÌŠiï¿½[ï¿½ï¿½
+* Arguments    : uint16_t * count : Œ»İ‚ÌóMˆ—‚ÅóM‚µ‚½ƒf[ƒ^”‚ÌŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_GetReceivedDataCount_C9(uint16_t * count)
 {
@@ -274,18 +274,18 @@ bool R_PG_SCI_GetReceivedDataCount_C9(uint16_t * count)
 *
 * Function Name: R_PG_SCI_GetReceptionErrorFlag_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Mï¿½Gï¿½ï¿½ï¿½[ï¿½tï¿½ï¿½ï¿½Oï¿½Ìæ“¾
+* Description  : ƒVƒŠƒAƒ‹óMƒGƒ‰[ƒtƒ‰ƒO‚Ìæ“¾
 *
-* Arguments    : bool * parity : ï¿½pï¿½ï¿½ï¿½eï¿½Bï¿½Gï¿½ï¿½ï¿½[ï¿½tï¿½ï¿½ï¿½Oï¿½ÌŠiï¿½[ï¿½ï¿½
-*              : bool * framing : ï¿½tï¿½ï¿½ï¿½[ï¿½~ï¿½ï¿½ï¿½Oï¿½Gï¿½ï¿½ï¿½[ï¿½tï¿½ï¿½ï¿½Oï¿½iï¿½[ï¿½ï¿½
-*              : bool * overrun : ï¿½Iï¿½[ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½tï¿½ï¿½ï¿½Oï¿½ÌŠiï¿½[ï¿½ï¿½
+* Arguments    : bool * parity : ƒpƒŠƒeƒBƒGƒ‰[ƒtƒ‰ƒO‚ÌŠi”[æ
+*              : bool * framing : ƒtƒŒ[ƒ~ƒ“ƒOƒGƒ‰[ƒtƒ‰ƒOŠi”[æ
+*              : bool * overrun : ƒI[ƒoƒ‰ƒ“ƒGƒ‰[ƒtƒ‰ƒO‚ÌŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_GetReceptionErrorFlag_C9(bool * parity, bool * framing, bool * overrun)
 {
@@ -322,16 +322,16 @@ bool R_PG_SCI_GetReceptionErrorFlag_C9(bool * parity, bool * framing, bool * ove
 *
 * Function Name: R_PG_SCI_ClearReceptionErrorFlag_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Mï¿½Gï¿½ï¿½ï¿½[ï¿½tï¿½ï¿½ï¿½Oï¿½ÌƒNï¿½ï¿½ï¿½A
+* Description  : ƒVƒŠƒAƒ‹óMƒGƒ‰[ƒtƒ‰ƒO‚ÌƒNƒŠƒA
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½Nï¿½ï¿½ï¿½Aï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½Nï¿½ï¿½ï¿½Aï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : ƒNƒŠƒA‚É¬Œ÷‚µ‚½ê‡
+*              : false : ƒNƒŠƒA‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Control
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_ClearReceptionErrorFlag_C9(void)
 {
@@ -351,16 +351,16 @@ bool R_PG_SCI_ClearReceptionErrorFlag_C9(void)
 *
 * Function Name: R_PG_SCI_GetTransmitStatus_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½Mï¿½ï¿½Ô‚Ìæ“¾
+* Description  : ƒVƒŠƒAƒ‹ƒf[ƒ^‘—Mó‘Ô‚Ìæ“¾
 *
-* Arguments    : bool * complete : ï¿½ï¿½ï¿½Mï¿½Iï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Oï¿½iï¿½[ï¿½ï¿½
+* Arguments    : bool * complete : ‘—MI—¹ƒtƒ‰ƒOŠi”[æ
 *
-* Return Value : true  : ï¿½æ“¾ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½æ“¾ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : æ“¾‚É¬Œ÷‚µ‚½ê‡
+*              : false : æ“¾‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_GetStatus
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_GetTransmitStatus_C9(bool * complete)
 {
@@ -389,16 +389,16 @@ bool R_PG_SCI_GetTransmitStatus_C9(bool * complete)
 *
 * Function Name: R_PG_SCI_StopModule_C9
 *
-* Description  : ï¿½Vï¿½ï¿½ï¿½Aï¿½ï¿½I/Oï¿½`ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Ì’ï¿½~
+* Description  : ƒVƒŠƒAƒ‹I/Oƒ`ƒƒƒlƒ‹‚Ì’â~
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½ï¿½~ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
-*              : false : ï¿½ï¿½~ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : ’â~‚É¬Œ÷‚µ‚½ê‡
+*              : false : ’â~‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_SCI_Destroy
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_SCI_StopModule_C9(void)
 {
