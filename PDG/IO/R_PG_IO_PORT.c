@@ -57,16 +57,16 @@ Includes   <System Includes> , "Project Includes"
 *
 * Function Name: R_PG_IO_PORT_SetPortNotAvailable
 *
-* Description  : ï¿½ï¿½ï¿½İ‚ï¿½ï¿½È‚ï¿½ï¿½[ï¿½qï¿½Ìï¿½ï¿½ï¿½
+* Description  : ‘¶İ‚µ‚È‚¢’[q‚Ìˆ—
 *
-* Arguments    : ï¿½È‚ï¿½
+* Arguments    : ‚È‚µ
 *
-* Return Value : true  : ï¿½İ’è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ê‚½ï¿½ê‡
-*              : false : ï¿½İ’ï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ê‡
+* Return Value : true  : İ’è‚ª³‚µ‚­s‚í‚ê‚½ê‡
+*              : false : İ’è‚É¸”s‚µ‚½ê‡
 *
 * Calling Functions : R_IO_PORT_NotAvailable
 *
-* Details      : ï¿½Ú×‚É‚Â‚ï¿½ï¿½Ä‚Íƒï¿½ï¿½tï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+* Details      : Ú×‚É‚Â‚¢‚Ä‚ÍƒŠƒtƒ@ƒŒƒ“ƒXƒ}ƒjƒ…ƒAƒ‹‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 ******************************************************************************/
 bool R_PG_IO_PORT_SetPortNotAvailable(void)
 {
